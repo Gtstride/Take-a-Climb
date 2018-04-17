@@ -17,6 +17,8 @@ Hey, i am Godstime, and an android developer, it feel awesome to be using this p
             android:id="@+id/text_view_p1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+
             android:text="Player 1: 0"
             android:textSize="30sp" />
 
@@ -26,6 +28,8 @@ Hey, i am Godstime, and an android developer, it feel awesome to be using this p
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_p1"
             android:text="Player 2: 0"
+            android:textColor="@color/colorPrimaryDark"
+
             android:textSize="30sp" />
 
         <Button
@@ -37,6 +41,8 @@ Hey, i am Godstime, and an android developer, it feel awesome to be using this p
             android:layout_centerVertical="true"
             android:layout_marginEnd="33dp"
             android:layout_marginRight="0dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorPrimaryDark"
             android:text="reset" />
 
     </RelativeLayout>
